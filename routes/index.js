@@ -3,16 +3,20 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 router.get('/elements', function(req, res, next) {
-  res.render('elements', { title: 'Express' });
+  res.render('elements');
 });
 router.get('/left-sidebar', function(req, res, next) {
-  res.render('left-sidebar', { title: 'Express' });
+  res.render('left-sidebar');
 });
 router.get('/right-sidebar', function(req, res, next) {
-  res.render('right-sidebar', { title: 'Express' });
+  res.render('right-sidebar');
 });
+router.get('/events', function(req, res, next) {
+  res.render('events');
+});
+
 
 module.exports = router;
