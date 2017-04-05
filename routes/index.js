@@ -8,14 +8,20 @@ router.get('/', function(req, res, next) {
 router.get('/elements', function(req, res, next) {
   res.render('elements');
 });
-router.get('/left-sidebar', function(req, res, next) {
-  res.render('left-sidebar');
+router.get('/vision', function(req, res, next) {
+  res.render('vision');
 });
-router.get('/right-sidebar', function(req, res, next) {
-  res.render('right-sidebar');
+router.get('/mission', function(req, res, next) {
+  res.render('mission');
 });
 router.get('/events', function(req, res, next) {
   res.render('events');
+});
+router.get('/contact-us', function(req, res, next) {
+  res.render('contact-us');
+});
+router.get('/photo', function(req, res, next) {
+  res.render('photo');
 });
 
 
