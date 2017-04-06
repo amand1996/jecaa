@@ -11,9 +11,6 @@ router.get('/elements', function(req, res, next) {
 router.get('/vision', function(req, res, next) {
   res.render('vision');
 });
-router.get('/mission', function(req, res, next) {
-  res.render('mission');
-});
 router.get('/events', function(req, res, next) {
   res.render('events');
 });
@@ -22,6 +19,9 @@ router.get('/contact-us', function(req, res, next) {
 });
 router.get('/photo', function(req, res, next) {
   res.render('photo');
+});
+router.get('/faq', function(req, res, next) {
+  res.render('faq');
 });
 
 
