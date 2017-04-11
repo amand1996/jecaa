@@ -5,10 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index');
 });
-router.get('/elements', function(req, res, next) {
+router.get('/team', function(req, res, next) {
   res.render('elements');
 });
-router.get('/vision', function(req, res, next) {
+router.get('/aboutus', function(req, res, next) {
   res.render('vision');
 });
 router.get('/events', function(req, res, next) {
