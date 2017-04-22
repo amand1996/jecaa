@@ -17,12 +17,14 @@ router.get('/events', function(req, res, next) {
 router.get('/contact-us', function(req, res, next) {
   res.render('contact-us');
 });
-router.get('/photo', function(req, res, next) {
-  res.render('photo');
-});
+// router.get('/photo', function(req, res, next) {
+//   res.render('photo');
+// });
 router.get('/faq', function(req, res, next) {
   res.render('faq');
 });
-
+router.get('/photo', function(req, res, next) {
+  res.render('element');
+});
 
 module.exports = router;
