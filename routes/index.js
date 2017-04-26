@@ -26,5 +26,11 @@ router.get('/faq', function(req, res, next) {
 router.get('/photo', function(req, res, next) {
   res.render('element');
 });
+router.get('/schedule', function(req, res, next) {
+  res.render('Schedule');
+});
+router.get('/talk', function(req, res, next) {
+  res.render('Talk');
+});
 
 module.exports = router;
